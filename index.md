@@ -4,18 +4,26 @@ root: .  # Is the only page that doesn't follow the pattern /:path/index.html
 permalink: index.html  # Is the only page that doesn't follow the pattern /:path/index.html
 ---
 
-This lesson provides an introduction to software licensing and related intellectual property issues for developers of scientific software.
-It will present common terminology and examples of some of the considerations that might go into choosing a license.
+This lesson presents a systematic approach for the productive and reliable use of generative artificial intelligence (AI) large language models (LLMs) in scientific software development.  The strategy is based on the implementation of a robust verification methodology, which will be explained in this lesson.
 
-**How you choose to license your software should be viewed as a *tool* to help accomplish your goals for that software.**
-There is no universal “right answer”!
-And, depending on the circumstances, the answer may not be your decision.
-This lesson intends to get you thinking, not to give you answers.
+This lesson provides a "hands-on" accompaniment to several presentation modules in the [Better Scientific Software tutorial](https://bssw-tutorial.github.io/) collection, including:
+
+* Scientific Software Design
+* Refactoring Scientific Software
+* Improving Reproducibility Through Better Software Practices
+
+as well as the core of the tutorial module
+
+* Software Development with LLMs
+
+The material in these different episodes is designed to be as independent as possible, but you will probably be best served by at least reading through (if not doing) all of the episodes.
+
+We're offering two separate "worked examples" -- one based on a simple heat equation solver, and the other a non-numerical example based on mirror images of a particle at the boundary of a mesh.  We hope that most of you will be comfortable with one or both.  Since we're using LLMs, you can implement them in any programming language for which your LLM can generate reasonable code.
 
 > ## Important Note
 >
-> *This is not legal advice.* Consult with true experts before making any consequential decisions!
-{: .caution}
+> The capabilities of generative AI-based tools are rapidly evolving.  This lesson represents a practical approach to the use of widely-available technologies and tools in the 2025 time frame.  It is highly likely that this material will *not* stand the test of time, although we hope to be able to update it as the technology evolves.
+{: .callout}
 
 > ## Prerequisites
 >
