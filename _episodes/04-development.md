@@ -1,5 +1,5 @@
 ---
-title: "Refactoring Scientific with LLMs"
+title: "Scientific Software Development with LLMs"
 teaching: 
 exercises: 
 questions:
