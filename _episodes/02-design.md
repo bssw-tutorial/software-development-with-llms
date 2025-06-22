@@ -12,8 +12,8 @@ keypoints:
 
 ## General
 
-## Example 1: Heat Equation
+## Case 1: Heat Equation
 
-## Example 2: Mirror Particle
+## Case 2: Mirror Particle
 
 {% include links.md %}
